@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+body {
+    background: #000 url('./imgs/penguins.gif');
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 13px;
+}
+
+#app:not(:empty) {
+    padding: 15px 10px;
+    background-color: rgba(0, 0, 0, 0.4)
+}
